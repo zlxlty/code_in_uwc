@@ -1,3 +1,7 @@
+from os import system, name
+
+from time import sleep
+
 class CODE_with_UWC(object):
 
     def __init__(self):
@@ -7,6 +11,9 @@ class CODE_with_UWC(object):
         self.E = "\n E = Enpower GIRLS with code skills to explore boundless potential and passion in STEAM"
 
     def mission(self):
+        print()
+        string = "Welcome to CODE with UWC!"
+        print(string.center(90))
         print(self.C)
         print(self.O)
         print(self.D)
@@ -28,12 +35,22 @@ def verifyed_email():
         else:
             print("Please enter the CORRECT School Email!")
 
+def clear():
+    # for windows
+    if name == 'nt':
+        _ = system('cls')
+
+    else:
+        _ = system('clear')
+
+
 c = CODE_with_UWC()
-c.mission()
 
 team_members = []
 
 for i in range(20):
+
+    c.mission()
 
     applicant = {}
     applicant['fname'] = input("\nEnter your first name:\t").lower()
@@ -53,5 +70,6 @@ for i in range(20):
 
     team_members.append(applicant)
 
-for member in team_members:
-    print(member)
+    sleep(2)
+
+    clear()
