@@ -35,15 +35,6 @@ def verifyed_email():
         else:
             print("Please enter the CORRECT School Email!")
 
-def clear():
-    # for windows
-    if name == 'nt':
-        _ = system('cls')
-
-    else:
-        _ = system('clear')
-
-
 c = CODE_with_UWC()
 
 team_members = []
@@ -72,4 +63,4 @@ for i in range(20):
 
     sleep(2)
 
-    clear()
+    system('clear')
