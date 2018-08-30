@@ -12,26 +12,6 @@ class CODE_with_UWC(object):
         print(self.D)
         print(self.E)
 
-class Participant(object):
-
-    def __init__(self):
-        self.key = False
-
-    @property
-    def person(self):
-        return self.person
-
-    @person.setter
-    def person(self, gender):
-
-        if not gender.upper() == "FEMALE":
-            print("\nReally sorry, this zhixing is currently for girls only.")
-
-        else:
-            print("\nWelcome!")
-            self.key = True
-
-
 def verifyed_grade():
     while True:
         tempgrade = input("\nEnter your Grade (FP or DP1 or DP2):\t").upper()
@@ -58,13 +38,6 @@ for i in range(20):
     applicant = {}
     applicant['fname'] = input("\nEnter your first name:\t").lower()
     applicant['lname'] = input("\nEnter your last name:\t").lower()
-    applicant['gender'] = input("\nenter your gender:\t")
-
-    p = Participant()
-    p.person = applicant['gender']
-
-    if not p.key:
-        continue
 
     applicant['email'] = verifyed_email()
     applicant['grade'] = verifyed_grade()
