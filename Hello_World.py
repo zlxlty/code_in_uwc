@@ -1,5 +1,3 @@
-import json
-
 class CODE_with_UWC(object):
 
     def __init__(self):
