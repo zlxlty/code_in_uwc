@@ -33,7 +33,7 @@ def verifyed_grade():
 
 def verifyed_email():
     while True:
-        tempe = input("\nEnter your School Email:")
+        tempe = input("\nEnter your School Email:\t")
         if (tempe[-13:] == '@uwcchina.org'):
             return tempe
         else:
@@ -64,7 +64,7 @@ if __name__ == '__main__':
 
     team_members = getdata('data.txt')
 
-    i = len(team_members) 
+    i = len(team_members)
     while i < 20:
 
         c.mission()
