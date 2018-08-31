@@ -2,6 +2,10 @@ from os import system, name
 
 from time import sleep
 
+import json
+
+from txttodic import getdata
+
 class CODE_with_UWC(object):
 
     def __init__(self):
@@ -35,32 +39,62 @@ def verifyed_email():
         else:
             print("Please enter the CORRECT School Email!")
 
-c = CODE_with_UWC()
+def name_repetition(fname, lname, members, index):
 
-team_members = []
+    for i in range(index):
+        if (fname == members[i]['fname'] and lname == members[i]['lname']):
+            print("\nYou have already signed in!")
 
-for i in range(20):
+            clear()
 
-    c.mission()
+            return True
 
-    applicant = {}
-    applicant['fname'] = input("\nEnter your first name:\t").lower()
-    applicant['lname'] = input("\nEnter your last name:\t").lower()
+    return False
 
-    applicant['email'] = verifyed_email()
-    applicant['grade'] = verifyed_grade()
+def clear():
 
-    with open('members.txt', 'a') as f:
-
-        f.write(str(applicant['fname'])+'\t')
-        f.write(str(applicant['lname'])+'\t')
-        f.write(str(applicant['grade'])+'\t')
-        f.write(str(applicant['email'])+'\n')
-
-    print("\nTHANK YOU!")
-
-    team_members.append(applicant)
-
-    sleep(2)
+    sleep(1)
 
     system('clear')
+
+
+if __name__ == '__main__':
+
+    c = CODE_with_UWC()
+
+    team_members = getdata('data.txt')
+
+    i = len(team_members) 
+    while i < 20:
+
+        c.mission()
+
+        applicant = {}
+        applicant['fname'] = input("\nEnter your first name:\t").lower()
+        applicant['lname'] = input("\nEnter your last name:\t").lower()
+
+        if name_repetition(applicant['fname'], applicant['lname'], team_members, i):
+            continue
+
+        print('\n'+'\t %d people have already signed in.' %i)
+        applicant['email'] = verifyed_email()
+        applicant['grade'] = verifyed_grade()
+
+        with open('members.txt', 'a') as f:
+
+            f.write(str(applicant['fname'])+'\t')
+            f.write(str(applicant['lname'])+'\t')
+            f.write(str(applicant['grade'])+'\t')
+            f.write(str(applicant['email'])+'\n')
+
+        print("\nTHANK YOU!")
+
+        with open('data.txt', 'a') as f:
+            json.dump(applicant, f)
+            f.write('\n')
+
+        team_members.append(applicant)
+
+        i += 1
+
+        clear()
