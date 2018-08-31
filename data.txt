@@ -1,0 +1,26 @@
+{"fname": "kangying", "lname": "cen", "email": "kycen18@uwcchina.org", "grade": "DP1"}
+{"fname": "prinshu", "lname": "gautam", "email": "pgautam17@uwcchina.org", "grade": "DP2"}
+{"fname": "ruiyan huang", "lname": "", "email": "ryhuang18@uwcchina.org", "grade": "FP"}
+{"fname": "", "lname": "wenqing chen", "email": "wqchen18@uwcchina.org", "grade": "FP"}
+{"fname": "", "lname": "huang", "email": "xyhuang18@uwcchina.org", "grade": "FP"}
+{"fname": "", "lname": "xioale niu", "email": "xlniu18@uwcchina.org", "grade": "FP"}
+{"fname": "", "lname": "zhimeng an ", "email": "zman18@uwcchina.org", "grade": "FP"}
+{"fname": "ruiqi", "lname": "cao", "email": "rqcap18@uwcchina.org", "grade": "FP"}
+{"fname": "fatoumata bintou rassoul diop", "lname": "gaye", "email": "fgaye17@uwcchina.org", "grade": "DP2"}
+{"fname": "qianyu", "lname": "li", "email": "qyli18@uwcchina.org", "grade": "FP"}
+{"fname": "ema ", "lname": "mehic", "email": "emehic17@uwcchina.org", "grade": "DP2"}
+{"fname": "", "lname": "mahdi", "email": "rmahdi18@uwcchina.org", "grade": "DP1"}
+{"fname": "lu", "lname": "qi", "email": "qlu18@uwcchina.org", "grade": "FP"}
+{"fname": "ziying", "lname": "chen", "email": "zychen18@uwcchina.org", "grade": "FP"}
+{"fname": "feyisayo omotehinwa", "lname": "omotehinwa", "email": "oomotehinwa17@uwcchina.org", "grade": "DP2"}
+{"fname": "aby ramata almamy niang", "lname": "mbaye", "email": "ambaye17@uwcchina.org", "grade": "DP2"}
+{"fname": "angie", "lname": "flores", "email": "aflores17@uwcchina.org", "grade": "DP2"}
+{"fname": "saki", "lname": "imai", "email": "simai18@uwcchina.org", "grade": "DP1"}
+{"fname": "lauren", "lname": "wilkes", "email": "lwilkes17@uwcchina.org", "grade": "DP2"}
+{"fname": "yihui", "lname": "jiang", "email": "yhjiang@uwcchina.org", "grade": "DP2"}
+{"fname": "songling", "lname": "zhou", "email": "slzhou@uwcchina.org", "grade": "DP2"}
+{"fname": "beichen", "lname": "zhang", "email": "bczhang@uwcchina.org", "grade": "DP2"}
+{"fname": "ruoyu ", "lname": "wang", "email": "rywang17@uwcchina.org", "grade": "DP1"}
+{"fname": "yuehan", "lname": "wang", "email": "yhwang18@uwcchina.org", "grade": "DP1"}
+{"fname": "sophia", "lname": "fatima", "email": "hfatima18@uwcchina.org", "grade": "DP1"}
+{"fname": "melianna ", "lname": "makari", "email": "imakari18@uwcchina.org", "grade": "DP1"}

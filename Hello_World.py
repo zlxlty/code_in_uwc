@@ -65,7 +65,7 @@ if __name__ == '__main__':
     team_members = getdata('data.txt')
 
     i = len(team_members)
-    while i < 20:
+    while i <= 50:
 
         c.mission()
 
@@ -78,7 +78,7 @@ if __name__ == '__main__':
 
         print('\n'+'\t %d people have already signed in.' %i)
         applicant['email'] = verifyed_email()
-        applicant['grade'] = verifyed_grade()
+
 
         with open('members.txt', 'a') as f:
 

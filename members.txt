@@ -1,0 +1,26 @@
+kangying	cen	DP1	kycen18@uwcchina.org
+prinshu	gautam	DP2	pgautam17@uwcchina.org
+ruiyan huang		FP	ryhuang18@uwcchina.org
+	wenqing chen	FP	wqchen18@uwcchina.org
+	huang	FP	xyhuang18@uwcchina.org
+	xioale niu	FP	xlniu18@uwcchina.org
+	zhimeng an 	FP	zman18@uwcchina.org
+ruiqi	cao	FP	rqcap18@uwcchina.org
+fatoumata bintou rassoul diop	gaye	DP2	fgaye17@uwcchina.org
+qianyu	li	FP	qyli18@uwcchina.org
+ema 	mehic	DP2	emehic17@uwcchina.org
+	mahdi	DP1	rmahdi18@uwcchina.org
+lu	qi	FP	qlu18@uwcchina.org
+ziying	chen	FP	zychen18@uwcchina.org
+feyisayo omotehinwa	omotehinwa	DP2	oomotehinwa17@uwcchina.org
+aby ramata almamy niang	mbaye	DP2	ambaye17@uwcchina.org
+angie	flores	DP2	aflores17@uwcchina.org
+saki	imai	DP1	simai18@uwcchina.org
+lauren	wilkes	DP2	lwilkes17@uwcchina.org
+yihui	jiang	DP2	yhjiang@uwcchina.org
+songling	zhou	DP2	slzhou@uwcchina.org
+beichen	zhang	DP2	bczhang@uwcchina.org
+ruoyu 	wang	DP1	rywang17@uwcchina.org
+yuehan	wang	DP1	yhwang18@uwcchina.org
+sophia	fatima	DP1	hfatima18@uwcchina.org
+melianna 	makari	DP1	imakari18@uwcchina.org
