@@ -51,6 +51,20 @@ def name_repetition(fname, lname, members, index):
 
     return False
 
+def verifyed_fname():
+    while True:
+        tempn = input("\nEnter your first name:\t").lower()
+        if not tempn in ["", "\n"]:
+            return tempn
+
+
+def verifyed_lname():
+    while True:
+        tempn = input("\nEnter your last name:\t").lower()
+        if not tempn in ["", "\n"]:
+            return tempn
+
+
 def clear():
 
     sleep(1)
@@ -70,14 +84,15 @@ if __name__ == '__main__':
         c.mission()
 
         applicant = {}
-        applicant['fname'] = input("\nEnter your first name:\t").lower()
-        applicant['lname'] = input("\nEnter your last name:\t").lower()
+        applicant['fname'] = verifyed_fname()
+        applicant['lname'] = verifyed_lname()
 
         if name_repetition(applicant['fname'], applicant['lname'], team_members, i):
             continue
 
         print('\n'+'\t %d people have already signed in.' %i)
         applicant['email'] = verifyed_email()
+        applicant['grade'] = verifyed_grade()
 
 
         with open('members.txt', 'a') as f:

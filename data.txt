@@ -24,3 +24,4 @@
 {"fname": "yuehan", "lname": "wang", "email": "yhwang18@uwcchina.org", "grade": "DP1"}
 {"fname": "sophia", "lname": "fatima", "email": "hfatima18@uwcchina.org", "grade": "DP1"}
 {"fname": "melianna ", "lname": "makari", "email": "imakari18@uwcchina.org", "grade": "DP1"}
+{"fname": "lu", "lname": "ti", "email": "tylu17@uwcchina.org", "grade": "DP2"}
