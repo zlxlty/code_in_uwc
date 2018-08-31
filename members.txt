@@ -24,4 +24,4 @@ ruoyu 	wang	DP1	rywang17@uwcchina.org
 yuehan	wang	DP1	yhwang18@uwcchina.org
 sophia	fatima	DP1	hfatima18@uwcchina.org
 melianna 	makari	DP1	imakari18@uwcchina.org
-lu	ti	lu	ti	DP2	tylu17@uwcchina.org
+
