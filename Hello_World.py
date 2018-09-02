@@ -1,10 +1,8 @@
 from os import system, name
-
 from time import sleep
-
 import json
-
 from txttodic import getdata
+from verify import verifyed_email, verifyed_grade, verifyed_fname, verifyed_lname, name_repetition
 
 class CODE_with_UWC(object):
 
@@ -22,48 +20,6 @@ class CODE_with_UWC(object):
         print(self.O)
         print(self.D)
         print(self.E)
-
-def verifyed_grade():
-    while True:
-        tempgrade = input("\nEnter your Grade (FP or DP1 or DP2):\t").upper()
-        if (tempgrade == 'FP' or tempgrade == 'DP1' or tempgrade == 'DP2'):
-            return tempgrade
-        else:
-            print("Please enter the CORRECT Grade!")
-
-def verifyed_email():
-    while True:
-        tempe = input("\nEnter your School Email:\t")
-        if (tempe[-13:] == '@uwcchina.org'):
-            return tempe
-        else:
-            print("Please enter the CORRECT School Email!")
-
-def name_repetition(fname, lname, members, index):
-
-    for i in range(index):
-        if (fname == members[i]['fname'] and lname == members[i]['lname']):
-            print("\nYou have already signed in!")
-
-            clear()
-
-            return True
-
-    return False
-
-def verifyed_fname():
-    while True:
-        tempn = input("\nEnter your first name:\t").lower()
-        if not tempn in ["", "\n"]:
-            return tempn
-
-
-def verifyed_lname():
-    while True:
-        tempn = input("\nEnter your last name:\t").lower()
-        if not tempn in ["", "\n"]:
-            return tempn
-
 
 def clear():
 
