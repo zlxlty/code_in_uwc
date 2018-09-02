@@ -2,7 +2,7 @@ from os import system, name
 from time import sleep
 import json
 from txttodic import getdata
-from verify import verifyed_email, verifyed_grade, verifyed_fname, verifyed_lname, name_repetition
+from verify import verifyed_email, verifyed_grade, verifyed_fname, verifyed_lname
 
 class CODE_with_UWC(object):
 
@@ -20,6 +20,18 @@ class CODE_with_UWC(object):
         print(self.O)
         print(self.D)
         print(self.E)
+
+def name_repetition(fname, lname, members, index):
+
+    for i in range(index):
+        if (fname == members[i]['fname'] and lname == members[i]['lname']):
+            print("\nYou have already signed in!")
+
+            clear()
+
+            return True
+
+    return False
 
 def clear():
 
