@@ -19,7 +19,7 @@ def verifyed_email():
 
 def verifyed_grade():
     while True:
-        tempgrade = input("\nEnter your Grade (FP or DP1 or DP2):\t").upper()
+        tempgrade = input("\nEnter your Grade (FP or DP1 or DP2):\t").upper().strip()
         if (tempgrade == 'FP' or tempgrade == 'DP1' or tempgrade == 'DP2'):
             return tempgrade
         else:
@@ -28,7 +28,7 @@ def verifyed_grade():
 
 def verifyed_fname():
     while True:
-        tempn = input("\nEnter your first name:\t").lower()
+        tempn = input("\nEnter your first name:\t").lower().strip()
         if not tempn in ["", "\n"]:
             return tempn
 
