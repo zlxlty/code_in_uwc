@@ -160,7 +160,7 @@ def verifyed_grade():
 ```
 It will only return one of the valid grades in UWCCSC
 
-##txttodic
+## txttodic
 ```Python
 import json
 
