@@ -112,34 +112,55 @@ I will explain `classes` and `functions` in this file respectively
 ```python
 class CODE_with_UWC(object):
     def __init__(self):
-        skip()
+        pass
     def mission(self):
-        skip()
+        pass
 ```
 The only application of this `class` is to print the mission of this zhixing
 
 ```python
 def name_repetition(fname, lname, members, index):
-    skip()
+    pass
 ```
 This function will check wether the name input is in `memebers.txt` already  
 if the name dose repeat, the function will return **`TRUE`**, otherwise it will return **`FALSE`**
 
 ```python
 def clear():
-    skip()
+    pass
 ```
-Once a student finish all the inputs, this function will be used to clear the terminal
+Once a student finish all the inputs, this function will be used to clear the terminal  
+All the information will be temporarily stored in a `list` of `dictionary`. Then, those `dictionary` will be `serialize` by `json` and stored in `data.txt`
 
+***
+## verify.py
+`verify.py` includes many functions that are used to validate user's input such as `first name`, `last name`, `email` and `grade`.
 
-The results will be recorded in `members.txt` so that she can make an Excel sheet out of it conveniently  
-The json output will be stored in `data.txt` and used as an input for `team_members`
-
-```Python
-#from txttodic.py import getdata
-team_members = getdata('data.txt')
+```python
+def verifyed_fname():
+    pass
+def verifyed_lname():
+    pass
 ```
+Those two functions will return verified names if the input is not `''` or `'\n'`
 
+```python
+def verifyed_email():
+    pass
+```
+This function only return valid email address if and only if the address end with `uwcchina.org` and they year number is in `16`, `17`, `18`  
+```python
+m = re.match(r'^\w+?(\d{2})@uwcchina\.org$', email)
+```
+`Regular Expressions` is used to comparing the formal with the input
+
+```python
+def verifyed_grade():
+    pass
+```
+It will only return one of the valid grades in UWCCSC
+
+##txttodic.py
 ```Python
 import json
 
@@ -153,6 +174,10 @@ def getdata(filename):
 
     return members
 ```
+This function can transform serialized content in `data.txt` to a list of dictionaries
+
+***
+The results will be recorded in `members.txt` so that my girlfriend can make an Excel sheet out of it conveniently  
 
 ****
 
