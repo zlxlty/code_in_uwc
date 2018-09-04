@@ -27,7 +27,7 @@ Run this python program in the terminal using:
 ```
 $ python Hello_World.py
 ```
-Then following output should be seen on your terminal
+Then following output should be seen on your terminal:
 ```
                              Welcome to CODE with UWC!                                 
 
@@ -41,7 +41,7 @@ Then following output should be seen on your terminal
 ```
 This is an explanation of the main values in this zhixing using initials of `CODE`
 
-The program will then ask students to fill in their **name**, **Email** and **grade** for registration.  
+The program will then ask students to fill in their **name**, **email** and **grade** for registration.  
 Here is an example:
 ```
 Enter your first name:	tianyi
@@ -73,7 +73,7 @@ Enter your first name:
 
 Enter your first name:
 ```
-* Name repetition can be detected by comparing with names in `data.txt`
+* **Name repetition** can be detected by comparing with names in `data.txt`
 ```
 Enter your first name:	tianyi
 
@@ -93,7 +93,7 @@ Enter your Email:	tylu15@uwcchina.org
 
 Email expired!
 ```
-* Grade other than `FP`, `DP1` or `DP2` is invalid
+* Grade other than **`FP`**, **`DP1`** or **`DP2`** is invalid
 ```
 Enter your Grade (FP or DP1 or DP2):	dp4
 
@@ -102,7 +102,7 @@ Please enter the CORRECT Grade!
 
 ***
 ### Reminder
-* For students who are not familiar with terminal operation, please remind them to press `Enter` every time they finish typing.
+* For students who are not familiar with terminal operation, please remind them to press **`Enter`** every time they finish typing.
 * The number of students in `data.txt` and `members.txt` must be the same.
 
 ***
@@ -148,7 +148,7 @@ Those two functions will return verified names if the input is not `''` or `'\n'
 def verifyed_email():
     pass
 ```
-This function only return valid email address if and only if the address end with `uwcchina.org` and they year number is in `16`, `17`, `18`  
+This function only return valid email address if and only if the address end with `uwcchina.org` and the year number is in `16`, `17`, `18`  
 ```python
 m = re.match(r'^\w+?(\d{2})@uwcchina\.org$', email)
 ```
