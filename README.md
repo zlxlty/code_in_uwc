@@ -1,4 +1,4 @@
-[code with uwc](code_with_uwc)
+![code with uwc](code_with_uwc)
 
 This is a program for my girlfriend's `Code with UWC` zhixing fair.  
 
