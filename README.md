@@ -16,11 +16,12 @@
 ***
 ## Environment
 * python 3.6.5
-* conda 4.5.4
+* conda 4.5.4  
 If you haven't install anaconda on your computer, here is the URL link to [Download Anaconda](https://www.anaconda.com/download)
 
 ***
 ## Instruction
+### Basic Function
 The **Main Function** of this program is [Hello_World.py](#Hello_World.py).  
 Run this python program in the terminal using:
 ```
@@ -39,6 +40,26 @@ Then following output should be seen on your terminal
  E = Enpower GIRLS with code skills to explore boundless potential and passion in STEAM
 ```
 This is an explanation of the main values in this zhixing using initials of `CODE`
+
+The program will then ask students to fill in their name, Email and grade for registration.  
+Here is an example:
+```
+Enter your first name:	tianyi
+
+Enter your last name:	lu
+
+	 0 people have already signed in.
+
+Enter your Email:	tylu17@uwcchina.org
+
+Enter your Grade (FP or DP1 or DP2):	dp1
+
+THANK YOU!
+```
+
+***
+### Special Feature
+
 
 
 

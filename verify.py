@@ -13,7 +13,7 @@ def verifyed_email():
                 print("\nEmail expired!")
 
             else:
-                return m
+                return email
         else:
             print("\nPlease Enter the CORRECT school Email!")
 
