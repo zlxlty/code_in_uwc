@@ -1,5 +1,4 @@
-CODE_with_UWC
-===========================
+[code with uwc](code_with_uwc)
 
 This is a program for my girlfriend's `Code with UWC` zhixing fair.  
 
@@ -26,7 +25,7 @@ The **Main Function** of this program is [Hello_World.py](#Hello_World.py). Run 
     $ python Hello_World.py
 Then following output should be seen on your terminal
 ```
-                          Welcome to CODE with UWC!                                 
+                             Welcome to CODE with UWC!                                 
 
  C = Connect to STEAM
 
@@ -36,6 +35,7 @@ Then following output should be seen on your terminal
 
  E = Enpower GIRLS with code skills to explore boundless potential and passion in STEAM
 ```
+This
 
 
 
