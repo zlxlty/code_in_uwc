@@ -17,7 +17,7 @@
 ## Environment
 * python 3.6.5
 * conda 4.5.4  
-If you haven't install anaconda on your computer, here is the URL link to [Download Anaconda](https://www.anaconda.com/download)
+If you haven't installed anaconda on your computer, here is the URL link to [Download Anaconda](https://www.anaconda.com/download)
 
 ***
 ## Instruction
@@ -122,7 +122,7 @@ The only application of this `class` is to print the mission of this zhixing
 def name_repetition(fname, lname, members, index):
     pass
 ```
-This function will check wether the name input is in `memebers.txt` already  
+This function will check whether the name input is in `memebers.txt` already  
 if the name dose repeat, the function will return **`TRUE`**, otherwise it will return **`FALSE`**
 
 ```python
@@ -130,7 +130,7 @@ def clear():
     pass
 ```
 Once a student finish all the inputs, this function will be used to clear the terminal  
-All the information will be temporarily stored in a `list` of `dictionary`. Then, those `dictionary` will be `serialize` by `json` and stored in `data.txt`
+All the information will be temporarily stored in a `list` of `dictionaries`. Then, those `dictionaries` will be `serialize` by `json` and stored in `data.txt`
 
 ***
 ## verify
@@ -152,7 +152,7 @@ This function only return valid email address if and only if the address end wit
 ```python
 m = re.match(r'^\w+?(\d{2})@uwcchina\.org$', email)
 ```
-`Regular Expressions` is used to comparing the formal with the input
+`Regular Expressions` is used to comparing the `expressions` with the `input`
 
 ```python
 def verifyed_grade():
