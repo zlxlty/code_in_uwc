@@ -9,9 +9,9 @@
     * Basic Function
     * Special Feature
     * Reminder
-* [Hello_World.py](#hello_world.py)
-* [verify.py](#verify.py)
-* [txttodic.py](#txttodic.py)
+* [Hello_World](#hello_world)
+* [verify](#verify)
+* [txttodic](#txttodic)
 
 ***
 ## Environment
@@ -106,7 +106,7 @@ Please enter the CORRECT Grade!
 * The number of students in `data.txt` and `members.txt` must be the same.
 
 ***
-## Hello_World.py
+## Hello_World
 `Hello_World.py` program is used for registering people who are interested to join this zhixing.  
 I will explain `classes` and `functions` in this file respectively
 ```python
@@ -133,7 +133,7 @@ Once a student finish all the inputs, this function will be used to clear the te
 All the information will be temporarily stored in a `list` of `dictionary`. Then, those `dictionary` will be `serialize` by `json` and stored in `data.txt`
 
 ***
-## verify.py
+## verify
 `verify.py` includes many functions that are used to validate user's input such as `first name`, `last name`, `email` and `grade`.
 
 ```python
@@ -160,7 +160,7 @@ def verifyed_grade():
 ```
 It will only return one of the valid grades in UWCCSC
 
-##txttodic.py
+##txttodic
 ```Python
 import json
 
