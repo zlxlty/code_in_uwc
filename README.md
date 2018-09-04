@@ -4,14 +4,14 @@
 
 ***
 ## Content
-* [Environment](##Environment)
-* [Instruction](##Instruction)
+* [Environment](#environment)
+* [Instruction](#instruction)
     * Basic Function
     * Special Feature
     * Reminder
-* [Hello_World.py](##Hello_World.py)
-* [verify.py](##verify.py)
-* [txttodic.py](##txttodic.py)
+* [Hello_World.py](#hello_world.py)
+* [verify.py](#verify.py)
+* [txttodic.py](#txttodic.py)
 
 ***
 ## Environment
