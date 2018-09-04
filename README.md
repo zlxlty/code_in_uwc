@@ -1,9 +1,9 @@
 ![code with uwc](code_with_uwc)
 
-## This is a program for my girlfriend's `Code with UWC` zhixing fair.  
+### This is a program for my girlfriend's `Code with UWC` zhixing fair.  
 
 ***
-# Content
+## Content
 * [Environment](#Environment)
 * [Instruction](#Instruction)
     * Basic Function
