@@ -22,7 +22,7 @@ If you haven't install anaconda on your computer, here is the URL link to [Downl
 ***
 ### Instruction
 The **Main Function** of this program is [Hello_World.py](#Hello_World.py). Run this python program in the terminal using:
-    $ python Hello_World.py
+  $ python Hello_World.py
 Then following output should be seen on your terminal
 ```
                              Welcome to CODE with UWC!                                 
