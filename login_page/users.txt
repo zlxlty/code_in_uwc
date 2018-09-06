@@ -1,0 +1,8 @@
+{"username": "skyl", "userpassport": "b147260e3caaf372b40b7efbb6414192", "login": 0, "score": 0}
+{"username": "skyr", "userpassport": "bf709005906087dc1256bb4449d8774d", "login": 1, "score": 0}
+{"username": "gfds", "userpassport": "c44a471bd78cc6c2fea32b9fe028d30a", "login": 1, "score": 0}
+{"username": "sdfgh", "userpassport": "6eea9b7ef19179a06954edd0f6c05ceb", "login": 1, "score": 0}
+{"username": "kycen", "userpassport": "6eea9b7ef19179a06954edd0f6c05ceb", "login": 1, "score": 0}
+{"username": "qwer", "userpassport": "c44a471bd78cc6c2fea32b9fe028d30a", "login": 3, "score": 200}
+{"username": "poiu", "userpassport": "ef22cbee172258880fd316cb2b0cd2ed", "login": 1, "score": 0}
+{"username": "multy", "userpassport": "aabaac158870827c8afc30674f8c1e49", "login": 3, "score": 200}
