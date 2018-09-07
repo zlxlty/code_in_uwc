@@ -4,23 +4,28 @@
 
 ***
 ## Content
-* [Environment](#environment)
-* [Instruction](#instruction)
-    * Basic Function
-    * Special Feature
-    * Reminder
+* [Getting_Started](#getting_started)
+  * Prerequisites
+  * Installing
+* [Run_the_test](#run the test)
+  * Basic Function
+  * Special Feature
+  * Reminder
 * [Hello_World](#hello_world)
 * [verify](#verify)
 * [txttodic](#txttodic)
 
 ***
-## Environment
+## Getting_Started
+### Prerequisites
 * python 3.6.5
 * conda 4.5.4  
+
+### Installing
 If you haven't installed anaconda on your computer, here is the URL link to [Download Anaconda](https://www.anaconda.com/download)
 
 ***
-## Instruction
+## Run_the_test
 ### Basic Function
 The **Main Function** of this program is [Hello_World.py](#Hello_World.py).  
 Run this python program in the terminal using:
